@@ -27,7 +27,7 @@ By: [**Justin Meiners**](https://github.com/justinmeiners) and [**Ryan Pendleton
 @replace
 View the final code and other resources in the [GitHub repo](https://github.com/justinmeiners/lc3-vm).
 @with
-最终的代码和其他相关的材料见 [GitHub repo](https://github.com/justinmeiners/lc3-vm)。
+最终的代码和其他相关的材料见 [GitHub repo](https://github.com/justinmeiners/lc3-vm)
 @end
 
 @replace
@@ -77,7 +77,7 @@ View the final code and other resources in the [GitHub repo](https://github.com/
 @replace
 In this tutorial, I will teach you how to write your own virtual machine (VM) that can run assembly language programs, such as my friend's [2048](https://github.com/rpendleton/lc3-2048) or my [Roguelike](https://github.com/justinmeiners/lc3-rogue). If you know how to program, but would like to gain a deeper understanding of what is going on inside a computer and better understand how programming languages work, then this project is for you. Writing your own VM may sound a little scary, but I promise that you will find it to be surprisingly simple and enlightening.
 @with
-tst
+In this tutorial, I will teach you how to write your own virtual machine (VM) that can run assembly language programs, such as my friend's [2048](https://github.com/rpendleton/lc3-2048) or my [Roguelike](https://github.com/justinmeiners/lc3-rogue). If you know how to program, but would like to gain a deeper understanding of what is going on inside a computer and better understand how programming languages work, then this project is for you. Writing your own VM may sound a little scary, but I promise that you will find it to be surprisingly simple and enlightening.
 @end
 
 @replace
@@ -86,6 +86,7 @@ tst
 
 @end
 
+// +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 @replace
 @s LC-3 Architecture
 @with
@@ -177,11 +178,124 @@ tst
 @end
 
 
-
+// +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 @replace
 @s Related Projects
 @with
 @s 相关的项目
+@end
+
+@replace
+Several people in the community have reached out to share their own VMs created with this tutorial. These projects
+may be helpful for learners who are familiar with programming languages other than C. Feel free to fork this [repo](https://github.com/justinmeiners/lc3-vm) and contribute your own.
+@with
+社区中的一些人分享了他们按照本教程亲自编写出的虚拟机。
+这些项目可能对熟悉其他编程语言的学习者有用。
+你可以 fork 本教程的[项目](https://github.com/justinmeiners/lc3-vm)然后在此之上做出属于你的贡献。
+@end
+
+// C
+@replace
+- [andyjung-dev](https://github.com/andyjung-dev/LC3-VM-Extended) extends the tutorial implementation with a few features.
+- [rpendleton](https://github.com/rpendleton/lc3sim-c) uses assembly implementation of TRAP codes.
+- [viking](https://github.com/viking/lc3-vm) well commented and adds tests.
+@with
+- [andyjung-dev](https://github.com/andyjung-dev/LC3-VM-Extended) 扩展了本教程，实现了一些新功能。
+- [rpendleton](https://github.com/rpendleton/lc3sim-c) 使用汇编实现了 TRAP 代码。
+- [viking](https://github.com/viking/lc3-vm) 增加了许多注释并添加了测试。
+@end
+
+// C++
+@replace
+- [daniMaarouf](https://github.com/daniMaarouf/lc3-vm) Python based debugger.
+- [jsawruk](https://github.com/jsawruk/lc3-vm) alternative C and C++ implementation.
+@with
+- [daniMaarouf](https://github.com/daniMaarouf/lc3-vm) 基于 Python 的调试器。
+- [jsawruk](https://github.com/jsawruk/lc3-vm) 另一种 C/C++ 实现。
+@end
+
+// Common Lisp
+@replace
+- [resttime](https://github.com/resttime/lc3) first Common Lisp implementation.
+@with
+- [resttime](https://github.com/resttime/lc3) 首个 Common Lisp 实现。
+@end
+
+// F#
+@replace
+- [yurisliepins](https://github.com/yurisliepins/lc3-vm) first F# implementation.
+@with
+- [yurisliepins](https://github.com/yurisliepins/lc3-vm) 首个 F# 实现。
+@end
+
+// Go
+@replace
+- [robmorgan](https://github.com/robmorgan/go-lc3-vm) alternative Go implementation.
+- [ziggy42](https://github.com/ziggy42/gLC3) first Go implementation.
+@with
+- [ziggy42](https://github.com/ziggy42/gLC3) 首个 Go 实现。
+- [robmorgan](https://github.com/robmorgan/go-lc3-vm) 另一个 Go 实现。
+@end
+
+// Haskell
+@replace
+- [dmjio](https://github.com/dmjio/LC3) first Haskell implementation.
+- [cleverca22](https://github.com/cleverca22/LC3) alternative Haskell implementation.
+@with
+- [dmjio](https://github.com/dmjio/LC3) 首个 Haskell 实现。
+- [cleverca22](https://github.com/cleverca22/LC3) 另一个 Haskell 实现。
+@end
+
+// JS
+@replace
+- [rpendleton](https://github.com/rpendleton/lc3sim-js) first JavaScript implementation. Works in the browser.
+@with
+- [rpendleton](https://github.com/rpendleton/lc3sim-js) 首个 JavaScript 实现。运行在浏览器中。
+@end
+
+// Python
+@replace
+- [Bl41r](https://github.com/Bl41r/lc-3-virtual-machine) first Python implementation.
+- [ianklatzco](https://github.com/ianklatzco/lc3) Python implementation. includes a disassembler.
+- [paulnameless](https://github.com/paul-nameless/lc3-vm) alternative Python implementation.
+- [mhashim6](https://github.com/mhashim6/LC-3) modular Python implementation.
+@with
+- [Bl41r](https://github.com/Bl41r/lc-3-virtual-machine) 首个 Python 实现。
+- [ianklatzco](https://github.com/ianklatzco/lc3) Python 实现。包括一个反汇编器。
+- [paulnameless](https://github.com/paul-nameless/lc3-vm) 另一个 Python 实现。
+- [mhashim6](https://github.com/mhashim6/LC-3) 模块化的 Python 实现。
+@end
+
+// Racket
+@replace
+- [whichxjy](https://github.com/whichxjy/LC3-VM-Racket) first Racket implementation.
+@with
+- [whichxjy](https://github.com/whichxjy/LC3-VM-Racket) 首个 Racket 实现。
+@end
+
+// Rust
+@replace
+- [erfur](https://github.com/erfur/lc3-vm-rust) alternative Rust implementation.
+- [KuldeepSinh](https://github.com/KuldeepSinh/lc3_vm) first Rust implementation.
+- [twe4ked](https://github.com/twe4ked/rs-lc3) includes debugging features.
+@with
+- [KuldeepSinh](https://github.com/KuldeepSinh/lc3_vm) 首个 Rust 实现。
+- [erfur](https://github.com/erfur/lc3-vm-rust) 另一个 Rust 实现。
+- [twe4ked](https://github.com/twe4ked/rs-lc3) 包括了调试功能。
+@end
+
+// Swift
+@replace
+- [hashemi](https://github.com/hashemi/lc3-swift) first Swift implementation.
+@with
+- [hashemi](https://github.com/hashemi/lc3-swift) 首个 Swift 实现。
+@end
+
+// TypeScript
+@replace
+- [mrhampson](https://github.com/mrhampson/lc3-typescript-vm) first TypeScript implementation. Node.js only.
+@with
+- [mrhampson](https://github.com/mrhampson/lc3-typescript-vm) 首个 TypeScript 实现。只支持 Node.js。
 @end
 
 @change_end
