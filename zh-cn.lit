@@ -1,0 +1,187 @@
+@change ./index.lit
+
+Chinese simplified translation.
+
+采用 change file 的形式进行翻译。
+可以做到原文对照，清晰明了。
+
+注意！
+
++ `@replace` 最短为一行，少于一行的无法替换。
+    注意有多余的空格也不行。
++ 可以多行替换。
++ 替换不分先后
+
+@replace
+@title Write your Own Virtual Machine
+@with
+@title 从零编写虚拟机
+@end
+
+@replace
+By: [**Justin Meiners**](https://github.com/justinmeiners) and [**Ryan Pendleton**](https://github.com/rpendleton)
+@with
+作者：[**Justin Meiners**](https://github.com/justinmeiners) 和 [**Ryan Pendleton**](https://github.com/rpendleton)
+@end
+
+@replace
+View the final code and other resources in the [GitHub repo](https://github.com/justinmeiners/lc3-vm).
+@with
+最终的代码和其他相关的材料见 [GitHub repo](https://github.com/justinmeiners/lc3-vm)。
+@end
+
+@replace
+#### 1. Contents
+
+1. [Contents](#1:1)
+2. [Introduction](#1:2)
+3. [LC-3 Architecture](#1:3)
+4. [Assembly Examples](#1:4)
+5. [Executing Programs](#1:5)
+6. [Implementing Instructions](#1:6)
+7. [Instruction Cheat Sheet](#1:7)
+8. [Trap Routines](#1:8)
+9. [Trap Routine Cheat Sheet](#1:9)
+10. [Loading Programs](#1:10)
+11. [Memory Mapped Registers](#1:11)
+12. [Platform Details](#1:12)
+13. [Running the VM](#1:13)
+14. [Alternate C++ Technique](#1:14)
+15. [Related Projects](#1:15)
+@with
+#### 1. 目录
+
+1. [目录](#1:1)
+2. [简介](#1:2)
+3. [LC-3 架构](#1:3)
+4. [汇编示例](#1:4)
+5. [运行程序](#1:5)
+6. [指令实现](#1:6)
+7. [指令速查表](#1:7)
+8. [Trap Routines](#1:8)
+9. [Trap Routine 速查表](#1:9)
+10. [加载程序](#1:10)
+11. [内存映射的寄存器](#1:11)
+12. [平台相关细节](#1:12)
+13. [运行虚拟机](#1:13)
+14. [可选的 C++ 技术](#1:14)
+15. [相关的项目](#1:15)
+@end
+
+@replace
+@s Introduction
+@with
+@s 简介
+@end
+
+@replace
+In this tutorial, I will teach you how to write your own virtual machine (VM) that can run assembly language programs, such as my friend's [2048](https://github.com/rpendleton/lc3-2048) or my [Roguelike](https://github.com/justinmeiners/lc3-rogue). If you know how to program, but would like to gain a deeper understanding of what is going on inside a computer and better understand how programming languages work, then this project is for you. Writing your own VM may sound a little scary, but I promise that you will find it to be surprisingly simple and enlightening.
+@with
+tst
+@end
+
+@replace
+
+@with
+
+@end
+
+@replace
+@s LC-3 Architecture
+@with
+@s LC-3 架构
+@end
+
+
+
+@replace
+@s Assembly Examples
+@with
+@s 汇编示例
+@end
+
+
+
+@replace
+@s Executing Programs
+@with
+@s 运行程序
+@end
+
+
+
+@replace
+@s Implementing Instructions
+@with
+@s 指令实现
+@end
+
+
+
+@replace
+@s Instruction Cheat Sheet
+@with
+@s 指令速查表
+@end
+
+
+
+@replace
+@s Trap Routines
+@with
+@s Trap Routines
+@end
+
+
+
+@replace
+@s Trap Routine Cheat Sheet
+@with
+@s Trap Routine 速查表
+@end
+
+
+
+@replace
+@s Loading Programs
+@with
+@s 加载程序
+@end
+
+
+@replace
+@s Memory Mapped Registers
+@with
+@s 内存映射的寄存器
+@end
+
+
+@replace
+@s Platform Details
+@with
+@s 平台相关细节
+@end
+
+
+@replace
+@s Running the VM
+@with
+@s 运行虚拟机
+@end
+
+
+@replace
+@s Alternate C++ Technique
+@with
+@s 可选的 C++ 技术
+@end
+
+
+
+@replace
+@s Related Projects
+@with
+@s 相关的项目
+@end
+
+@change_end
